@@ -1,0 +1,9 @@
+services:
+    ger.avatarresize.listener:
+        class: ger\avatarresize\event\main_listener
+        arguments:
+            - '@config'
+            - '%core.root_path%'
+            - '%core.php_ext%'
+        tags:
+            - { name: event.listener }

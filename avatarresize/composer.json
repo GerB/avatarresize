@@ -1,0 +1,25 @@
+{
+    "name": "ger/avatarresize",
+    "type": "phpbb-extension",
+    "description": "Automatically resize too large uploaded avatars to max dimensions",
+    "homepage": "",
+    "version": "1.0.0",
+    "time": "2018-02-01",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ger",
+            "homepage": "https://github.com/GerB",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "extra": {
+        "display-name": "Avatar resize",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.3-RC1"
+        }
+    }
+}

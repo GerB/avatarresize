@@ -16,7 +16,6 @@ namespace ger\avatarresize\event;
  */
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-use phpbb\files\factory;
 /**
  * Magic OGP event listener
  */
